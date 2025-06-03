@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBBQViOJHnuPUgshZAFGte98I6XZfy8dAM",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "leetcode-clone-6b96c.firebaseapp.com",
   projectId: "leetcode-clone-6b96c",
   storageBucket: "leetcode-clone-6b96c.firebasestorage.app",
