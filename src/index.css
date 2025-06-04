@@ -9,3 +9,6 @@ html,body{
   width: 100%;
   background: #000;
 }
+::-webkit-scrollbar{
+  display: none;
+}

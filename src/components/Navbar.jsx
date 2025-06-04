@@ -21,6 +21,10 @@ const Navbar = () => {
       {
         title:"Leaderboard",
         route:"/leaderboard"
+      },
+      {
+        title:"Contests",
+        route:"/contests"
       }
     ]
   return (
