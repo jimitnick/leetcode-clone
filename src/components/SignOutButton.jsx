@@ -17,7 +17,7 @@ const SignOutButton = () => {
         });
     }
   return (
-    <button className="text-white px-3 py-2 bg-transparnet rounded-3xl border-1 border-white" onClick={() => {SignOutHandler()}} >Sign Out</button>
+    <button className="cursor-pointer text-white px-3 py-2 bg-transparnet rounded-3xl border-1 border-white" onClick={() => {SignOutHandler()}} >Sign Out</button>
   )
 }
 
